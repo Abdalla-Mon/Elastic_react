@@ -1,7 +1,7 @@
 
 
 export async function handleSearch(q, page = 1, size = 2) {
-  const url = "http://localhost:3000/";
+  const url = "https://elastic-react-2.onrender.com/";
   // change this to thebakend url
   const response = await fetch(
     url +"search"+ "?q=" + q + "&page=" + page + "&size=" + size,
